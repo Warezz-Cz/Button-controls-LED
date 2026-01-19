@@ -10,7 +10,7 @@ Naprogramovat tlačítko aby rožínalo LED
 Schema zapojení
 -----------------------
 
-![schema zapojení]()
+![schema zapojení](/Schema%20MIT%201.jpg)
 
 Popis funkce
 -----------------------
