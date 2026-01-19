@@ -4,22 +4,18 @@ Tlačítko ovládá LED project
 Účel/Zadání/Funkce
 -----------------------
 
-* parní mlátička s elektronickým vstřikováním
-    * pára
-    * píst
-    * mikroprocesor
+Naprogramovat tlačítko aby rožínalo LED 
 
 
 Schema zapojení
 -----------------------
 
-![schema zapojení](./docs/schema.png)
+![schema zapojení]()
 
 Popis funkce
 -----------------------
 
-1. ono se to
-2. samo se to
+když tlačítko držím svítí LED, jinak je zhaslá
 
 ToDo
 -----------------------
