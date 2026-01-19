@@ -15,10 +15,9 @@ Schema zapojení
 Popis funkce
 -----------------------
 
-když tlačítko držím svítí LED, jinak je zhaslá
+Když tlačítko držím svítí LED, jinak je zhaslá
 
-ToDo
+Zhodnocení
 -----------------------
-
-* tohle
-
+Projekt jsem zvládl v pohodě. Kód nebyl složítý a naučil jsem se pracovat s projekty, které budeme dále dělat.
+Vše bylo bez problému a hodnotím se pozitivně a beru to jako uspěch.
