@@ -4,7 +4,7 @@
 #include "milis.h"
 //#include "delay.h"
 //#include "uart1.h"
-//#include <stdio.h>
+#include <stdio.h>
 
 // Discovery Board
 #ifdef STM8S003
@@ -39,7 +39,7 @@ void init(void)
     //init_uart1();
 
     GPIO_Init(LED_PORT, LED_PIN, GPIO_MODE_OUT_PP_LOW_SLOW);
-
+    GPIO_Init(BTN_PORT,BTN_PIN, GPIO_MODE_IN_FL_NO_IT);
 }
 
 
@@ -51,12 +51,16 @@ int main(void)
     init();
 
     while (1) {
-        if (milis() - time > 333 ) {
-            REVERSE(LED); 
+        if (milis() - time > 30){
             time = milis();
-            //printf("%ld\n", time);
-        }
-        //delay_ms(333);
+            if (PUSH(BTN) == 1){
+                HIGH(LED);
+            }
+            else {
+                LOW(LED);
+            }
+            
+        }    
     }
 }
 
